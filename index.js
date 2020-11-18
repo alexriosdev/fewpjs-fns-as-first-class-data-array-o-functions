@@ -40,8 +40,8 @@ const routine = [
   walkToPark,
   throwFrisbee,
   walkHome,
-  unleashDog
-]
+  unleashDog,
+];
 
 function exerciseDog(dogName, dogBreed) {
   return routine.map(fn => fn(dogName, dogBreed));
